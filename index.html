@@ -4,26 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Real-time character counter</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="top--container">
-      <h2 class="heading">Real-Time Character Counter</h2>
-      <textarea
-        id="textarea"
-        class="textarea"
-        placeholder="Please Enter Your Text Here.."
-        maxlength="50"
-      ></textarea>
-      <div class="bottom--container">
-        <p>
-          Total Characters :
-          <span class="total__counter" id="total__counter">30</span>
-        </p>
-        <p>
-          Remaining Characters :
-          <span class="remaining__counter" id="remaining__counter">20</span>
-        </p>
+    <div class="container">
+      <div class="content">
+        <div class="top--container">
+          <h2 class="heading">Real-Time Character Counter</h2>
+          <textarea
+            id="textarea"
+            class="textarea"
+            placeholder="Please Enter Your Text Here.."
+            maxlength="50"
+          ></textarea>
+        </div>
+        <div class="bottom--container">
+          <p>
+            Total Characters :
+            <span class="total__counter" id="total__counter">30</span>
+          </p>
+          <p>
+            Remaining Characters :
+            <span class="remaining__counter" id="remaining__counter">20</span>
+          </p>
+        </div>
       </div>
     </div>
+
+    <script src="index.js"></script>
   </body>
 </html>
